@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ethereal_expanse:item/gateway_canister_activated"
+  }
+}

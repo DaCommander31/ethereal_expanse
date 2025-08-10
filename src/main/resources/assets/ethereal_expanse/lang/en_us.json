@@ -1,0 +1,8 @@
+{
+  "sounds.ethereal_expanse.block.starlit_end_stone.step": "Footsteps",
+
+  "block.ethereal_expanse.starlit_end_stone": "Starlit End Stone",
+  "item.ethereal_expanse.starlit_end_stone": "Starlit End Stone",
+
+  "item.ethereal_expanse.gateway_canister": "Gateway Canister"
+}

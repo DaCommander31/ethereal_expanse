@@ -1,0 +1,8 @@
+{
+  "block.starlit_end_stone.step": {
+    "subtitle": "sounds.ethereal_expanse.block.starlit_end_stone.step",
+    "sounds": [
+      "ethereal_expanse:block/starlit_end_stone_step"
+    ]
+  }
+}

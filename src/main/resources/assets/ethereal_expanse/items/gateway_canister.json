@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "ethereal_expanse:contains_gateway",
+    "cases": [
+      {
+        "when": false,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ethereal_expanse:item/gateway_canister_empty"
+        }
+      },
+      {
+        "when": true,
+        "model": {
+          "type": "minecraft:model",
+          "model": "ethereal_expanse:item/gateway_canister_activated"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "ethereal_expanse:item/gateway_canister_empty"
+    }
+  }
+}
