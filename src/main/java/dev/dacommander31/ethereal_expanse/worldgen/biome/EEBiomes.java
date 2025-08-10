@@ -11,8 +11,6 @@ import net.minecraft.sounds.Musics;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.biome.*;
-import net.minecraft.world.level.material.FogType;
-import terrablender.api.EndBiomeRegistry;
 
 public class EEBiomes {
     public static final ResourceKey<Biome> STARLIT_MEADOW = ResourceKey.create(Registries.BIOME,

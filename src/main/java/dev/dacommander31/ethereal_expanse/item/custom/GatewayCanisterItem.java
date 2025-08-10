@@ -56,7 +56,7 @@ public class GatewayCanisterItem extends Item {
         BlockHitResult blockHitResult = getPlayerPOVHitResult(level, player, ClipContext.Fluid.NONE);
 
         if (blockHitResult.getType() == HitResult.Type.BLOCK
-                && level.getBlockState(blockHitResult.getBlockPos()).is(Blocks.END_PORTAL_FRAME))
+                && level.getBlockState(blockHitResult.getBlockPos()).is(Blocks.END_GATEWAY))
             return InteractionResult.PASS;
 
         if (level.dimension() == Level.END) {

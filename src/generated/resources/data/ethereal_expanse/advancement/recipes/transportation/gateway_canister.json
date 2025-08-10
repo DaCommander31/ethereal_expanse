@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "entered_gateway": {
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      },
+      "trigger": "minecraft:enter_block"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ethereal_expanse:gateway_canister"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "entered_gateway"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ethereal_expanse:gateway_canister"
+    ]
+  }
+}

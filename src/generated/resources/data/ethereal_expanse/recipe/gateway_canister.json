@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "minecraft:nether_star",
+    "P": "minecraft:ender_pearl",
+    "S": "minecraft:end_stone",
+    "Y": "minecraft:ender_eye"
+  },
+  "pattern": [
+    "SYS",
+    "PSP",
+    "SNS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ethereal_expanse:gateway_canister"
+  }
+}
