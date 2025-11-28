@@ -2,6 +2,7 @@ package dev.dacommander31.ethereal_expanse;
 
 import dev.dacommander31.ethereal_expanse.block.EEBlocks;
 import dev.dacommander31.ethereal_expanse.component.EEDataComponents;
+import dev.dacommander31.ethereal_expanse.entity.EEEntities;
 import dev.dacommander31.ethereal_expanse.item.EEItems;
 import dev.dacommander31.ethereal_expanse.sound.EESounds;
 import dev.dacommander31.ethereal_expanse.worldgen.biome.EETerrablender;
@@ -37,6 +38,7 @@ public class EtherealExpanse {
         EEItems.register(modEventBus);
         EEBlocks.register(modEventBus);
         EESounds.register(modEventBus);
+        EEEntities.register(modEventBus);
         EETerrablender.registerBiomes();
         EEDataComponents.register(modEventBus);
 

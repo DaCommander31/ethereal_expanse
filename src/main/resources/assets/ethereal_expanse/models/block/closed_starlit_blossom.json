@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "cutout",
+  "textures": {
+    "cross": "ethereal_expanse:block/closed_starlit_blossom"
+  }
+}

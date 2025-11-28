@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ethereal_expanse:block/open_starlit_blossom",
+    "layer1": "ethereal_expanse:block/open_starlit_blossom_emissive"
+  }
+}

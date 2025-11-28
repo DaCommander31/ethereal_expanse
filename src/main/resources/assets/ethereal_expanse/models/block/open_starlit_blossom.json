@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cross_emissive",
+  "render_type": "cutout",
+  "textures": {
+    "cross": "ethereal_expanse:block/open_starlit_blossom",
+    "cross_emissive": "ethereal_expanse:block/open_starlit_blossom_emissive"
+  }
+}

@@ -1,6 +1,5 @@
 package dev.dacommander31.ethereal_expanse;
 
-import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -19,6 +18,5 @@ public class EtherealExpanseClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-
     }
 }

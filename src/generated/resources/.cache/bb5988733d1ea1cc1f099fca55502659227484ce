@@ -1,2 +1,10 @@
-// 1.21.8	2025-08-10T17:13:33.8818356	Model Definitions - ethereal_expanse
+// 1.21.8	2025-08-15T20:57:27.4832071	Model Definitions - ethereal_expanse
+bab9c27de82fa527d9a1b680c6d6520459282e75 assets/ethereal_expanse/blockstates/closed_starlit_blossom.json
+585580b04e3b5e6c1108fc51ba8e12fbecffe887 assets/ethereal_expanse/blockstates/open_starlit_blossom.json
+9393fdb43ea66921e7ae038b040c9d274c4e668f assets/ethereal_expanse/items/closed_starlit_blossom.json
+69a24d1625719962c0c295cc2f8911e1c4c45684 assets/ethereal_expanse/items/open_starlit_blossom.json
 163d44adb157471324e7d240996939174c4a85ae assets/ethereal_expanse/items/starlit_end_stone.json
+106c2aa1a517bd257617e0cf0584e7507a1080d5 assets/ethereal_expanse/models/block/closed_starlit_blossom.json
+a4a8d10152091833586f3f715faf4687824ae0e5 assets/ethereal_expanse/models/block/open_starlit_blossom.json
+3a7853f925267bf34bdeb358a74132957f6ebf77 assets/ethereal_expanse/models/item/closed_starlit_blossom.json
+925e141c931e650d2c6aa45aa9bca6b2790f0e41 assets/ethereal_expanse/models/item/open_starlit_blossom.json

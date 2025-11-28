@@ -17,6 +17,8 @@ public class EEBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(EEBlocks.STARLIT_END_STONE.get());
+        dropSelf(EEBlocks.OPEN_STARLIT_BLOSSOM.get());
+        dropSelf(EEBlocks.CLOSED_STARLIT_BLOSSOM.get());
     }
 
     @Override

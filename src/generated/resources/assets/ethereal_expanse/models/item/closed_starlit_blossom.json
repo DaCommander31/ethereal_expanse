@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ethereal_expanse:block/closed_starlit_blossom"
+  }
+}

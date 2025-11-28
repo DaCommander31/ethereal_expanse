@@ -6,9 +6,9 @@ import dev.dacommander31.ethereal_expanse.item.EEItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
-import net.minecraft.client.data.models.model.*;
 import net.minecraft.core.Holder;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -32,7 +32,15 @@ public class EEModelProvider extends ModelProvider {
 
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
+        blockModels.createCrossBlock(EEBlocks.OPEN_STARLIT_BLOSSOM.get(), BlockModelGenerators.PlantType.EMISSIVE_NOT_TINTED);
+        blockModels.createCrossBlock(EEBlocks.CLOSED_STARLIT_BLOSSOM.get(), BlockModelGenerators.PlantType.NOT_TINTED);
 
+        itemModels.generateLayeredItem(
+                ResourceLocation.fromNamespaceAndPath(EtherealExpanse.MOD_ID, "item/open_starlit_blossom"),
+                ResourceLocation.fromNamespaceAndPath(EtherealExpanse.MOD_ID, "block/open_starlit_blossom"),
+                ResourceLocation.fromNamespaceAndPath(EtherealExpanse.MOD_ID, "block/open_starlit_blossom_emissive"));
+
+        blockModels.createFlatItemModelWithBlockTexture(EEBlocks.CLOSED_STARLIT_BLOSSOM.asItem(), EEBlocks.CLOSED_STARLIT_BLOSSOM.get());
     }
 
     @Override

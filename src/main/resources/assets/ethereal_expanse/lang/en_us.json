@@ -4,5 +4,12 @@
   "block.ethereal_expanse.starlit_end_stone": "Starlit End Stone",
   "item.ethereal_expanse.starlit_end_stone": "Starlit End Stone",
 
-  "item.ethereal_expanse.gateway_canister": "Gateway Canister"
+  "block.ethereal_expanse.open_starlit_blossom": "Open Starlit Blossom",
+  "item.ethereal_expanse.open_starlit_blossom": "Open Starlit Blossom",
+  "block.ethereal_expanse.closed_starlit_blossom": "Closed Starlit Blossom",
+  "item.ethereal_expanse.closed_starlit_blossom": "Closed Starlit Blossom",
+
+  "item.ethereal_expanse.gateway_canister": "Gateway Canister",
+  "item.ethereal_expanse.gateway_canister.tooltip.none_linked": "Not linked to an End Gateway",
+  "item.ethereal_expanse.gateway_canister.tooltip.linked_coords": "Linked to End Gateway at %s"
 }
