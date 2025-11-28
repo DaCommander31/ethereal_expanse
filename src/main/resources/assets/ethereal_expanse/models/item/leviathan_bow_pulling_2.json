@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ethereal_expanse:item/leviathan_bow_pulling_2"
+  }
+}
