@@ -85,7 +85,7 @@ public class GatewayCanisterItem extends Item {
                     Vec3 exitPos = handItem.get(EEDataComponents.GATEWAY_EXIT).getBottomCenter();
 
                     emitWarpEffects(serverLevel, player);
-                    serverLevel.getChunkSource().addTicket(new Ticket(TicketType.PORTAL, 2), new ChunkPos((int) exitPos.x, (int) exitPos.y));
+                    //serverLevel.getChunkSource().addTicket(new Ticket(TicketType.PORTAL, 2), new ChunkPos((int) exitPos.x, (int) exitPos.y));
 
                     player.teleportTo(exitPos.x, exitPos.y, exitPos.z);
                     player.fallDistance = 0;
