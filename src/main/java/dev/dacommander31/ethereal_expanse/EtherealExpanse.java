@@ -4,6 +4,7 @@ import dev.dacommander31.ethereal_expanse.block.EEBlocks;
 import dev.dacommander31.ethereal_expanse.component.EEDataComponents;
 import dev.dacommander31.ethereal_expanse.entity.EEEntities;
 import dev.dacommander31.ethereal_expanse.item.EEItems;
+import dev.dacommander31.ethereal_expanse.network.EEAttachmentTypes;
 import dev.dacommander31.ethereal_expanse.sound.EESounds;
 import dev.dacommander31.ethereal_expanse.worldgen.biome.EETerrablender;
 import dev.dacommander31.ethereal_expanse.worldgen.biome.surface.EESurfaceRules;
@@ -41,6 +42,7 @@ public class EtherealExpanse {
         EEEntities.register(modEventBus);
         EETerrablender.registerBiomes();
         EEDataComponents.register(modEventBus);
+        EEAttachmentTypes.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
