@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/world/item/Rarity",
+      "name": "ETHEREAL_EXPANSE_LEGENDARY",
+      "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+      "parameters": {
+        "class": "dev/dacommander31/ethereal_expanse/component/EERarity",
+        "field": "LEGENDARY_RARITY_ENUM_PROXY"
+      }
+    }
+  ]
+}

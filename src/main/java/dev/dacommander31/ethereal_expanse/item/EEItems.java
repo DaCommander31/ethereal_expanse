@@ -2,6 +2,7 @@ package dev.dacommander31.ethereal_expanse.item;
 
 import dev.dacommander31.ethereal_expanse.EtherealExpanse;
 import dev.dacommander31.ethereal_expanse.component.EEDataComponents;
+import dev.dacommander31.ethereal_expanse.component.EERarity;
 import dev.dacommander31.ethereal_expanse.item.custom.GatewayCanisterItem;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.BowItem;
@@ -22,7 +23,9 @@ public class EEItems {
                     .component(DataComponents.MAX_DAMAGE, 3)));
 
     public static final DeferredItem<Item> LEVIATHAN_BOW = ITEMS.registerItem("leviathan_bow",
-            (properties) -> new BowItem(properties.durability(3000)));
+            (properties) -> new BowItem(properties
+                    .durability(3000)
+                    .rarity(EERarity.LEGENDARY_RARITY_ENUM_PROXY.getValue())));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
